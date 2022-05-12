@@ -1,0 +1,29 @@
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.contacts img {
+    height: 288px;
+}
+
+.data {
+    padding: 0px;
+    list-style: none;
+}
+
+.data li {
+    font-size: 1.2rem;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin-bottom: 0.8rem;
+}
+
+.data li::before{
+    content: ' ';
+    display: inline-block;
+    height: 5px;
+    width: 20px;
+    background-color: #9b111e;
+    margin-right: 10px;
+}
